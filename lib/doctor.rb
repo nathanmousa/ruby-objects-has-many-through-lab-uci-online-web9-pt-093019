@@ -12,6 +12,7 @@ class Doctor
   end
   
   def new_appointment(patient, date)
+    Appointment.new()
   
   private
   def save
