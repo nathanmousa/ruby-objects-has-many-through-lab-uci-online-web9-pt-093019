@@ -15,6 +15,9 @@ class Artist
     
   end
   
+  def songs
+    
+  end
   
   private
   def save
