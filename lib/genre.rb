@@ -22,4 +22,5 @@ class Genre
   private
   def save
     @@all << self
+  end
 end 
