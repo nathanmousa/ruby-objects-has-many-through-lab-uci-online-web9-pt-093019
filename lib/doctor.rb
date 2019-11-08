@@ -20,7 +20,10 @@ class Doctor
   end
   
   def patients
-    appointments.collect { |app| app.patient
+    appointments.collect { |app| app.patient }.uniq
+  end
+  
+  
   
   private
   def save
