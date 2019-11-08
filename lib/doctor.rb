@@ -20,6 +20,7 @@ class Doctor
   end
   
   def patients
+    patients
   
   private
   def save
