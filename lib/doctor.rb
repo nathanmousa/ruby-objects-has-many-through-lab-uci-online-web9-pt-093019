@@ -11,7 +11,7 @@ class Doctor
     @@all
   end
   
-  def new_appointment
+  def new_appointment(patient, date)
   
   private
   def save
