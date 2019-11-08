@@ -20,7 +20,7 @@ class Doctor
   end
   
   def patients
-    patients.collect { |pat| pat
+    appointments.collect { |app| app.patient
   
   private
   def save
