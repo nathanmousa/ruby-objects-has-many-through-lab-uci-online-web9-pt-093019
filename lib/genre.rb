@@ -12,11 +12,11 @@ class Genre
   end
   
   def songs 
-    Song.all.select {|s| s.genre == self}
+    Song.all.select { |song| song.genre == self}
   end
   
   def artists 
-    songs.map(&:artist)
+    songs.collect { |song| song.genre 
   end
   
   
