@@ -7,7 +7,13 @@ class Artist
     save
   end
   
+  def self.all
+    self.all
+  end
   
+  def new_song()
+    
+  end
   
   
   private
