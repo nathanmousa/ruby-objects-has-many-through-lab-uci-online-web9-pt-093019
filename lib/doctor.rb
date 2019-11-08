@@ -15,6 +15,11 @@ class Doctor
     Appointment.new(date, patient, self)
   end
   
+  def appointments
+    Appointment
+  
+  
+  
   private
   def save
     @@all << self
