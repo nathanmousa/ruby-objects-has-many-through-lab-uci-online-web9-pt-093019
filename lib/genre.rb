@@ -19,6 +19,8 @@ class Genre
     songs.map(&:artist)
   end
   
+  
+  
   private
   def save
     @@all << self
